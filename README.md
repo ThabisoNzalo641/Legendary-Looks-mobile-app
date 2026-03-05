@@ -17,19 +17,6 @@ Legendary Looks provides a centralized mobile platform where:
 - Businesses can operate independently within the same platform
 The system uses a **multi-tenant architecture**, allowing multiple beauticians to use the same system while keeping their data isolated.
 ---
-## Project Structure
-The project contains the Android mobile application for the Legendary Looks booking platform.
-
-• **java/**  
-Contains the application logic written in Java and Kotlin, including UI components, ViewModels, and Firebase integration.
-
-• **res/**  
-Contains Android resources such as layouts, images, and styling values used to build the user interface.
-
-• **AndroidManifest.xml**  
-Defines the application's configuration, permissions, and activities.
-The application connects to **Firebase Firestore and Firebase Authentication** to handle data storage and user authentication.
-
 ### Technologies Used
 ### Mobile Client Application
 - Java
@@ -60,6 +47,19 @@ This architecture allows the system to remain scalable, secure, and cost-efficie
 - Booking conflict detection
 - Data isolation between tenants
 ---
+## Project Structure
+The project contains the Android mobile application for the Legendary Looks booking platform.
+
+• **java/**  
+Contains the application logic written in Java and Kotlin, including UI components, ViewModels, and Firebase integration.
+
+• **res/**  
+Contains Android resources such as layouts, images, and styling values used to build the user interface.
+
+• **AndroidManifest.xml**  
+Defines the application's configuration, permissions, and activities.
+The application connects to **Firebase Firestore and Firebase Authentication** to handle data storage and user authentication.
+
 ## My Contribution
 This project was developed as a collaborative group project.
 My main contributions included:
