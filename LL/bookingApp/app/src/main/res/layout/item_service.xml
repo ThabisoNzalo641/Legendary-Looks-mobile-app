@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Service Image -->
+        <ImageView
+            android:id="@+id/iv_service_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:background="#F0F0F0"
+            android:contentDescription="Service image" />
+
+        <!-- Service Name -->
+        <TextView
+            android:id="@+id/tv_service_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Service Name"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Price and Duration -->
+        <TextView
+            android:id="@+id/tv_price_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R25 • 30 min"
+            android:textSize="12sp" />
+
+        <!-- Book Button - UPDATED WITH CLICK FIXES -->
+        <TextView
+            android:id="@+id/btn_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_gradient"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Book"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

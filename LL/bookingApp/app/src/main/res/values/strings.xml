@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">ITMDA</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--  Login strings  -->
+    <string name="content_description_menu">Menu</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="hint_email_address">   Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. …</string>
+    <!--  Email and password strings  -->
+    <string name="label_email">Email Address</string>
+    <string name="label_password">Password</string>
+
+    <!--  Sign up strings  -->
+    <string name="welcome_signup">Welcome</string>
+    <string name="instruction_signup">Create an account to get started</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in_link">Sign in</string>
+
+    <!--  Category selection strings  -->
+    <string name="app_name_of_app">Name of App</string>
+    <string name="choose_a_category">Choose A Category</string>
+    <string name="desc_braided_by_merry">Braided by Nerry Logo</string>
+    <string name="desc_evie_nails">Eviie Nails Logo</string>
+    <string name="desc_lashes_by_lisa">Lashes by Lisa Logo</string>
+
+    <!--  Hair section strings  -->
+    <string name="section_hair">Hair</string>
+    <string name="choose_a_style">Choose a style</string>
+    <string name="content_description_back">Back Button</string>
+
+    <!--  Lashes section strings  -->
+    <string name="section_lashes">Lashes</string>
+    <string name="choose_a_lash_style">Choose a style</string>
+
+    <!--  Nails section strings  -->
+    <string name="section_nails">Nails</string>
+    <string name="choose_a_nail_style">Choose a style</string>
+
+
+    <!--  Select booking time and date strings  -->
+    <string name="booking_step_1_title">Booking</string>
+    <string name="booking_step_1_subtitle">Select Date and Time</string>
+    <string name="button_next_details">Next: Client Details</string>
+
+    <!--  Enter details to confirm booking strings  -->
+    <string name="booking_step_2_title">Client Details</string>
+    <string name="booking_step_2_subtitle">Add your contact info and notes</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_notes">Notes or Special Requests (Optional)</string>
+    <string name="button_confirm_pay">Confirm &amp; Pay</string>
+
+    <!--  Confirm Appointment strings  -->
+    <string name="confirmation_title">Appointment Confirmed!</string>
+    <string name="confirmation_message">Your booking has been successfully secured. We look forward to seeing you!</string>
+    <string name="button_back_to_home">View More Services</string>
+    <string name="content_description_success">Success Checkmark</string>
+
+    <!--  Profile strings  -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_subtitle">View your details</string>
+    <string name="button_save_changes">Save Changes</string>
+    <string name="button_logout">Logout</string>
+    <string name="content_description_profile_picture">Profile Avatar</string>
+
+    <!--  Appointments upcoming and completed strings -->
+    <string name="appointments_title">Appointments</string>
+    <string name="appointments_subtitle">View all your appointments</string>
+    <string name="appointments_upcoming">Upcoming:</string>
+    <string name="appointments_completed">Completed:</string>
+
+    <!--  Payment strings  -->
+    <string name="payment_title">Payment</string>
+    <string name="payment_subtitle">Let\'s process your payment</string>
+    <string name="label_card_details">Card details:</string>
+    <string name="hint_card_number">Card Number</string>
+    <string name="hint_card_holder">Card Holder Name</string>
+    <string name="hint_expiry_date">MM/YY</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="button_process_payment">Process Payment</string>
+
+    <!-- Add these to res/values/strings.xml -->
+    <string name="button_edit_profile">Edit Profile</string>
+    <string name="button_my_appointments">My Appointments</string>
+    <string name="button_change_password">Change Password</string>
+
+</resources>
