@@ -50,6 +50,7 @@ The Android mobile application developed using Java and Kotlin. This layer provi
 Handles the booking workflows, validation rules, and application logic such as preventing conflicting booking times.
 ### Data Layer
 Uses Firebase Firestore and Firebase Authentication to securely manage user accounts and store appointment data.
+
 ---
 ## Project Structure
 Legendary-Looks-mobile-app
@@ -62,6 +63,7 @@ Contains Android resources such as layouts, drawables, and UI styling values use
 
 AndroidManifest.xml  
 Defines application configuration, permissions, and activity declarations.
+
 ---
 ## My Contribution
 This project was developed as a collaborative group project.
@@ -84,6 +86,7 @@ Ensure the following software is installed:
 ### 1. Clone the Repository
 Clone the project from GitHub:
 git clone https://github.com/ThabisoNzalo641/Legendary-Looks-mobile-app.git
+
 ---
 ### 2. Open the Project in Android Studio
 1. Open Android Studio  
@@ -100,16 +103,19 @@ Once the project is opened:
 ### 4. Configure Firebase
 Ensure the Firebase configuration file is present in the project:
 app/google-services.json
+
 If the file is missing, it must be downloaded from the Firebase Console and added to the app directory.
+
 ---
 ### 5. Run the Application
 1. Start an Android emulator or connect a physical Android device.
-2. Click the Run ▶ button in Android Studio.
+2. Click the Run button in Android Studio.
 3. Select your device or emulator.
 4. The application will build and launch automatically.
 ---
 ## Development Approach
 The project was developed using Agile software development principles, with collaborative teamwork and version control managed through Git and GitHub.
+
 ---
 ## Project Status
 This project was developed for academic purposes as part of a software engineering project and demonstrates practical application of mobile development, backend integration, and collaborative development practices.
