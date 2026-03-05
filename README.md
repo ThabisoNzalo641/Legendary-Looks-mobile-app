@@ -1,7 +1,10 @@
 # Legendary-Looks-mobile-app
 Legendary Looks is a mobile booking application designed to help independent beauty professionals manage their services, appointments, and clients more efficiently.
+
 The application provides a centralized platform where clients can browse available services and book appointments, while service providers can manage their schedules and customer interactions. The system is designed to reduce scheduling conflicts, improve client communication, and streamline daily business operations.
+
 This project was developed as part of a collaborative software engineering group project.
+
 ---
 ## Problem
 Many independent beauty professionals rely on manual booking methods such as phone calls, messaging apps, or handwritten appointment books. These approaches often result in:
