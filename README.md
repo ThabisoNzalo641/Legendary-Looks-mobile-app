@@ -1,91 +1,116 @@
 # Legendary-Looks-mobile-app
-Legendary Looks is a multi-tenant mobile booking application designed to help independent beauty professionals manage appointments, services, and clients digitally.
-The platform allows beauticians to operate their businesses through a centralized system while enabling clients to easily browse services and book appointments through a mobile application.
+Legendary Looks is a mobile booking application designed to help independent beauty professionals manage their services, appointments, and clients more efficiently.
+The application provides a centralized platform where clients can browse available services and book appointments, while service providers can manage their schedules and customer interactions. The system is designed to reduce scheduling conflicts, improve client communication, and streamline daily business operations.
+This project was developed as part of a collaborative software engineering group project.
 ---
 ## Problem
-Many independent beauty professionals rely on manual booking methods such as phone calls, text messages, or handwritten appointment books. This often leads to:
-- Scheduling conflicts
-- Poor client communication
-- Lack of centralized client history
-- Administrative inefficiency
+Many independent beauty professionals rely on manual booking methods such as phone calls, messaging apps, or handwritten appointment books. These approaches often result in:
+- Scheduling conflicts  
+- Poor client communication  
+- Lack of centralized client records  
+- Administrative inefficiencies  
 ---
 ## Solution
-Legendary Looks provides a centralized mobile platform where:
-- Clients can browse available services and book appointments
-- Beauty professionals can manage services, schedules, and clients
-- Appointment data is stored securely in the cloud
-- Businesses can operate independently within the same platform
-The system uses a **multi-tenant architecture**, allowing multiple beauticians to use the same system while keeping their data isolated.
----
-### Technologies Used
-### Mobile Client Application
-- Java
-- Kotlin
-- Android Studio
-- Material Design
-### Backend
-- Firebase Firestore
-- Firebase Authentication
-### Development Tools
-- Git
-- GitHub
-- Agile Development Methodology
----
-# System Architecture
-The application follows a **multi-tenant SaaS architecture**, where:
-- Multiple businesses share the same infrastructure
-- Each tenant's data is isolated using a unique tenant ID
-- Clients and administrators have different system views and permissions
-This architecture allows the system to remain scalable, secure, and cost-efficient.
----
-# Core Features
-- User authentication (Admin and Client roles)
-- Appointment booking system
+Legendary Looks provides a digital solution that allows beauty professionals to manage appointments and services through a mobile application.
+The system offers:
+- Centralized appointment booking
 - Service management
 - Client history tracking
-- Role-based login system
+- Secure cloud-based data storage
+- Improved scheduling reliability
+---
+## Technologies Used
+### Mobile Application
+- Java  
+- Kotlin  
+- Android Studio  
+- Material Design Components  
+### Backend
+- Firebase Firestore  
+- Firebase Authentication  
+### Development Tools
+- Git  
+- GitHub  
+- Android Emulator / Physical Android Device  
+---
+## Core Features
+- User authentication and login
+- Appointment booking system
+- Service catalog browsing
+- Client record management
 - Booking conflict detection
-- Data isolation between tenants
+- Role-based access within the application
+- Firebase cloud data storage
+---
+## System Architecture
+The application follows a layered architecture consisting of:
+### Presentation Layer
+The Android mobile application developed using Java and Kotlin. This layer provides the user interface and allows clients to interact with the system.
+### Business Logic Layer
+Handles the booking workflows, validation rules, and application logic such as preventing conflicting booking times.
+### Data Layer
+Uses Firebase Firestore and Firebase Authentication to securely manage user accounts and store appointment data.
 ---
 ## Project Structure
-The project contains the Android mobile application for the Legendary Looks booking platform.
+Legendary-Looks-mobile-app
 
-• **java/**  
-Contains the application logic written in Java and Kotlin, including UI components, ViewModels, and Firebase integration.
+java/  
+Contains the application logic written in Java and Kotlin, including UI components, models, and Firebase integration.
 
-• **res/**  
-Contains Android resources such as layouts, images, and styling values used to build the user interface.
+res/  
+Contains Android resources such as layouts, drawables, and UI styling values used by the application.
 
-• **AndroidManifest.xml**  
-Defines the application's configuration, permissions, and activities.
-The application connects to **Firebase Firestore and Firebase Authentication** to handle data storage and user authentication.
-
+AndroidManifest.xml  
+Defines application configuration, permissions, and activity declarations.
+---
 ## My Contribution
 This project was developed as a collaborative group project.
 My main contributions included:
-- Developing parts of the mobile client application using **Java and Kotlin in Android Studio**
-- Designing and implementing **frontend UI screens**
-- Creating navigation flows for the appointment booking system
-- Connecting the mobile application to **Firebase backend services**
-- Assisting with implementing booking logic and data synchronization
-  
-## Challenges Solved
-# Conflicting Booking Time Slots
-Implemented a system that checks the database before confirming bookings to prevent multiple users from selecting the same time slot.
-# Role-Based Login
-Developed logic to separate **admin and client logins**, ensuring users are redirected to the correct interface.
-# Data Isolation
-Implemented tenant-based data filtering to ensure businesses only see their own appointments and clients.
+- Developing parts of the mobile client application using Java and Kotlin
+- Designing and implementing frontend user interface screens
+- Implementing navigation flows for the appointment booking system
+- Integrating the mobile application with Firebase backend services
+- Assisting with implementing booking validation logic and data synchronization
 ---
-## Future Improvements
-Potential improvements for future versions include:
-- Multi-vendor marketplace for beauty professionals
-- Integrated online payment system
-- Advanced service search functionality
-- Analytics dashboard for business insights
+## How to Run the Application
+### Prerequisites
+Ensure the following software is installed:
+- Android Studio
+- Java Development Kit (JDK)
+- Git
+- Android Emulator or physical Android device
+- Internet connection (required for Firebase services)
+---
+### 1. Clone the Repository
+Clone the project from GitHub:
+git clone https://github.com/ThabisoNzalo641/Legendary-Looks-mobile-app.git
+---
+### 2. Open the Project in Android Studio
+1. Open Android Studio  
+2. Select Open an Existing Project  
+3. Navigate to the following folder:
+Legendary-Looks-mobile-app/LL/bookingApp
+4. Select the bookingApp folder and open it.
+---
+### 3. Sync Gradle
+Once the project is opened:
+- Click Sync Project with Gradle Files
+- Allow Android Studio to download required dependencies.
+---
+### 4. Configure Firebase
+Ensure the Firebase configuration file is present in the project:
+app/google-services.json
+If the file is missing, it must be downloaded from the Firebase Console and added to the app directory.
+---
+### 5. Run the Application
+1. Start an Android emulator or connect a physical Android device.
+2. Click the Run ▶ button in Android Studio.
+3. Select your device or emulator.
+4. The application will build and launch automatically.
+---
+## Development Approach
+The project was developed using Agile software development principles, with collaborative teamwork and version control managed through Git and GitHub.
 ---
 ## Project Status
-This project was developed as part of an academic group project and demonstrates the application of **mobile development, backend integration, and system architecture principles**.
----
-## License
-This project is for educational purposes.
+This project was developed for academic purposes as part of a software engineering project and demonstrates practical application of mobile development, backend integration, and collaborative development practices.
+
