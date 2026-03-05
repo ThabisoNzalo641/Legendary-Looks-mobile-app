@@ -17,18 +17,16 @@ Legendary Looks provides a centralized mobile platform where:
 - Businesses can operate independently within the same platform
 The system uses a **multi-tenant architecture**, allowing multiple beauticians to use the same system while keeping their data isolated.
 ---
-## Technologies Used
-# Mobile Client Application
+### Technologies Used
+### Mobile Client Application
+- Java
 - Kotlin
 - Android Studio
-- Material Design UI
-# Admin Dashboard
-- JavaScript
-- HTML / CSS
-# Backend
+- Material Design
+### Backend
 - Firebase Firestore
 - Firebase Authentication
-# Development Tools
+### Development Tools
 - Git
 - GitHub
 - Agile Development Methodology
@@ -50,15 +48,14 @@ This architecture allows the system to remain scalable, secure, and cost-efficie
 - Data isolation between tenants
 ---
 ## My Contribution
-This project was developed as a **collaborative group project**.
+This project was developed as a collaborative group project.
 My main contributions included:
-- Developing the **mobile client application using Kotlin**
-- Designing and implementing **user interface screens** in Android Studio
-- Implementing **navigation flows for appointment booking**
-- Connecting the mobile client to the **Firebase backend**
-- Assisting with development of the **JavaScript admin dashboard**
-- Helping integrate booking data between the client and admin systems
----
+- Developing parts of the mobile client application using **Java and Kotlin in Android Studio**
+- Designing and implementing **frontend UI screens**
+- Creating navigation flows for the appointment booking system
+- Connecting the mobile application to **Firebase backend services**
+- Assisting with implementing booking logic and data synchronization
+  
 ## Challenges Solved
 # Conflicting Booking Time Slots
 Implemented a system that checks the database before confirming bookings to prevent multiple users from selecting the same time slot.
