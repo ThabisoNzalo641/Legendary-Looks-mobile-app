@@ -42,7 +42,9 @@ Legendary-Looks-mobile-app
 │       │   └── build.gradle
 │       │
 │       └── Android application source code
-│
+
+
+
 The project contains the Android mobile application for the Legendary Looks booking platform.
 • **java/**  
 Contains the application logic written in Java and Kotlin, including UI components, ViewModels, and Firebase integration.
