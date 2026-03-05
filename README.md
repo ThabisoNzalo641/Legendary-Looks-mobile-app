@@ -22,8 +22,10 @@ The project contains the Android mobile application for the Legendary Looks book
 
 • **java/**  
 Contains the application logic written in Java and Kotlin, including UI components, ViewModels, and Firebase integration.
+
 • **res/**  
 Contains Android resources such as layouts, images, and styling values used to build the user interface.
+
 • **AndroidManifest.xml**  
 Defines the application's configuration, permissions, and activities.
 The application connects to **Firebase Firestore and Firebase Authentication** to handle data storage and user authentication.
